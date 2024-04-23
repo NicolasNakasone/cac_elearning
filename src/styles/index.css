@@ -4,6 +4,141 @@
 }
 
 body {
+  background-color:  #D6D0C0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.contenedor-logo {
+  display: flex;
+  background-color: #FDE8B4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  max-width: 100%;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  background-color: D6D0C0;
+}
+
+.contact-info {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF5DC;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-top: 15px;
+  max-width: 400px;
+  height: 30px;
+  margin: 15px auto;
+
+}
+
+.container {
+  flex: 2;
+  padding: 20px;
+  background-color: #FFF5DC;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #D6D0C0;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control.error {
+  border-color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.btn-submit {
+  background-color: #f0d98f;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.btn-submit:hover {
+  background-color: #afee91;
+}
+
+.btn-submit.animate__flip {
+  -webkit-animation: flip-scale-down-ver 0.5s linear both;
+  animation: flip-scale-down-ver 0.5s linear both;
+}
+
+/*------------------------- footer ------------------*/
+
+.temp-footer {
+  grid-area: footer;
+  background-color: black;
+}
+
+.elementos-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  color: white;
+}
+
+.navegacion {
+  list-style: none;
+}
+
+.redes {
+  display: flex;
+  margin-top: 5px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+.contact {
+  display: flex;
+  margin-top: 5px;
+}
+
+.contact a p,
+.redes a p {
+  color: white;
+}
+
+.redes {
+  display: flex;
+  margin-top: 5px;
 }
 
