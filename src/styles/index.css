@@ -80,7 +80,7 @@ input {
 }
 
 .btn-submit {
-  background-color: #f0d98f;
+  background-color: #5c995a;
   color: #fff;
   padding: 10px;
   border: none;
@@ -90,7 +90,7 @@ input {
 }
 
 .btn-submit:hover {
-  background-color: #afee91;
+  background-color: #3f7d3a;
 }
 
 .btn-submit.animate__flip {
