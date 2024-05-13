@@ -27,23 +27,57 @@
   </head>
 
   <body>
-    <div class="contenedor-logo">
-    <div class="logo">
+    <div class="general-container">
+      <header class="temp-header">
+        <div class="d-header">
           <img class="logo" src="./imagenes/7345644.jpg" alt="logo" />
         </div>
-      </div>
+        <div class="d-button">
+          <button id="abrir" class="abrir-menu">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </header>
 
-    <section>
-      <br>
-      <div class="contact-info">
-        <h2><span>FORMULARIO DE REGISTRO</span></h2>
-      </div>
-        <div class="container">
-          <form id="contact-form" class="contact-form">
+      <nav class="temp-nav">
+        <ul class="ul-container" id="ul-container">
+          <button class="cerrar-menu" id="cerrar">
+            <i class="bi bi-x"></i>
+          </button>
+          <li>
+            <a href="index.html"><strong>Inicio</strong></a>
+          </li>
+          <li>
+            <a href="pag1.html"><strong>pag1</strong></a>
+          </li>
+          <li>
+            <a href="pag2.html"><strong>pag2</strong></a>
+          </li>
+          <li>
+            <a href="pag3.html"><strong>pag3</strong></a>
+          </li>
+          <li>
+            <a href="registro.html"><strong>Registro</strong></a>
+          </li>
+          <li>
+            <a href="pag4.html"><strong>pag4</strong></a>
+          </li>
+        </ul>
+      </nav>
+
+    <main class="temp-main">
+      <section>
+        <br>
+
+          <div class="contact-info">
+          <h2><span>FORMULARIO DE REGISTRO</span></h2>
+          </div>
+
+          <div class="container">
+           <form id="contact-form" class="contact-form">
             <div class="form-group">
               <label for="nombre"
-                >Nombre <span class="required">*</span></label
-              >
+                >Nombre <span class="required">*</span></label>
               <input
                 type="text"
                 id="nombre"
@@ -142,6 +176,7 @@
       </div>
     </section>
     <br>
+    </main>
 
     <footer class="temp-footer">
       <div class="elementos-footer">
@@ -195,5 +230,6 @@
   </div>
 
     <script src="./js/contacto.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
