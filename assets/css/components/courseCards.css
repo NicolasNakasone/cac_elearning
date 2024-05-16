@@ -1,0 +1,12 @@
+.Course_Card_Container{
+    width: 15vw;
+    height: 25vw;
+    border-radius: 10px;
+    background-color: rgba(255, 250, 238, 1);
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.5s;
+}
+
+.Course_Card_Container:hover{
+    transform: scale(1.2);
+}

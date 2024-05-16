@@ -1,0 +1,12 @@
+.Category_Card_Container{
+    height: 10vw;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgba(255, 250, 238, 1);
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.5s;
+}
+
+.Category_Card_Container:hover{
+    transform: scale(1.2);
+}

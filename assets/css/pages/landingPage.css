@@ -1,0 +1,201 @@
+body{
+    background-color: rgba(255, 250, 238, 1);
+    margin: 0;
+}
+
+
+/* Promotion Section */
+.Promotion{
+    display: flex;
+    height: 15vh;
+    background-color: rgba(253, 232, 180, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navegation Header */
+.Main_Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    background-color: rgba(255, 250, 238, 1);
+    box-shadow: 5px 5px 5px gray;
+}
+.Categories
+{
+    font-size: 1.2rem;
+}
+
+.Logo_Container {
+    display: flex;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    }
+
+.SignIn button{
+    text-align: center;
+    padding: 1.2vw;
+    color: white;
+    background-color: black;
+    border: 0.5px;
+    border-style: solid;
+}
+.SignIn button:hover
+{
+    background-color: gray;
+    color: black;
+}
+.LogIn button{    
+    text-align: center;
+    padding: 1.2vw;
+    background-color: white;
+    border: 0.5px;
+    border-style: solid;
+}
+.LogIn button:hover{
+    background-color: gray;
+    color: white;
+}
+.Main_Navigation input{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: rgb(236, 235, 235);
+    text-align: center;
+}
+.Main_Navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0;
+}
+
+
+/* Presentation Section */
+.Presentation_Container{
+    height: 70vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 3vh;
+    background-color: rgba(255, 250, 238, 1);
+}
+/* Colaboration Section */
+.Colaboration_Container{
+    height: 30vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-color: rgba(214, 208, 192, 1);
+}
+/* Popular Course Section */
+.Popular_Courses_Container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.List_Button_Class button 
+{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(255, 250, 238, 1);
+}
+.List_Button_Class button:hover
+{
+    font-weight: bold;
+}
+
+
+.Carrousel_Container
+{    
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgba(214, 208, 192, 1);
+}
+.Carrousel_Container h2{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.Carrousel_Container p{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.Card_Carrousel{
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+/* Categories Section */
+.Categories_Container{
+    display: flex;
+    height: 80vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    flex-direction: column;
+    background-color: rgba(255, 250, 238, 1);
+    justify-content: center;
+    align-items: center;
+}
+.Grid_Container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5vw;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgba(214, 208, 192, 1);
+}
+
+/* Topics By Category List Section */
+.Topics_By_Category_List_Container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: rgba(214, 208, 192, 1);
+}
+.Topics_By_Category_List_Container h2{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.basic_btn
+{
+    color: black;
+    background-color: rgba(214, 208, 192, 1);
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.basic_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+footer{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
