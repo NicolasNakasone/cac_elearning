@@ -110,28 +110,26 @@ body{
 }
 
 
-.Carrousel_Container
+.Carousel_Container
 {    
     border-radius: 10px;
     border-style: outset;
     background-color: rgba(214, 208, 192, 1);
 }
-.Carrousel_Container h2{
+.Carousel_Container h2{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
-.Carrousel_Container p{
+.Carousel_Container p{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
 
-.Card_Carrousel{
+.Card_Carousel{
     display: flex;
     height: 70vh;
     justify-content: space-around;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
 /* Categories Section */
@@ -181,7 +179,7 @@ body{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     margin-top: 4vh;
-    margin-bottom: 4vh;
+
 }
 
 .basic_btn:hover {
